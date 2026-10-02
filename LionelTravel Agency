@@ -1,0 +1,2184 @@
+            .testimonial-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .why-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .quick-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+
+        @media(max-width: 600px) {
+
+            .section {
+                padding: 70px 0;
+            }
+
+            .section-title h2,
+            .about-content h2,
+            .enquiry-content h2 {
+                font-size: 34px;
+            }
+
+            .hero {
+                min-height: 82vh;
+            }
+
+            .hero h1 {
+                font-size: 48px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .hero-features {
+                gap: 20px;
+            }
+
+            .quick-grid,
+            .service-grid,
+            .destination-grid,
+            .package-grid,
+            .testimonial-grid,
+            .why-grid,
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-group.full {
+                grid-column: auto;
+            }
+
+            .about-image img {
+                height: 400px;
+            }
+
+            .about-badge {
+                right: 10px;
+            }
+
+            .destination-card {
+                height: 330px;
+            }
+
+            .enquiry-form {
+                padding: 25px;
+            }
+
+            .cta h2 {
+                font-size: 34px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     TOP OFFER BAR
+========================================= -->
+
+<div class="offer-bar">
+
+    <div class="offer-text">
+
+        ✈️ SPECIAL TRAVEL OFFERS ✈️
+        &nbsp;&nbsp; • &nbsp;&nbsp;
+        PLAN YOUR DREAM JOURNEY WITH LIONEL TRAVEL AGENCY
+        &nbsp;&nbsp; • &nbsp;&nbsp;
+        FAMILY TOURS • PILGRIMAGE TOURS • HONEYMOON TOURS • GROUP TOURS
+        &nbsp;&nbsp; • &nbsp;&nbsp;
+        CALL 7386757616 TODAY
+        &nbsp;&nbsp; • &nbsp;&nbsp;
+
+    </div>
+
+</div>
+
+
+<!-- =========================================
+     HEADER
+========================================= -->
+
+<header>
+
+    <div class="container navbar">
+
+
+        <!-- LOGO -->
+
+        <a href="#home" class="logo">
+
+            <div class="logo-icon">
+                LA
+            </div>
+
+            <div class="logo-text">
+
+                <strong>LIONEL</strong>
+
+                <small>Travel Agency</small>
+
+            </div>
+
+        </a>
+
+
+        <!-- NAVIGATION -->
+
+        <nav>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#destinations">Destinations</a>
+                </li>
+
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+
+                <li>
+                    <a href="#packages">Packages</a>
+                </li>
+
+                <li>
+                    <a href="#reviews">Reviews</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="nav-cta">
+                        Plan My Trip
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <!-- MOBILE MENU -->
+
+        <div class="menu-btn" id="menuBtn">
+
+            <i class="fas fa-bars"></i>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================
+     HERO SECTION
+========================================= -->
+
+<section class="hero" id="home">
+
+    <div class="container">
+
+        <div class="hero-content">
+
+
+            <div class="hero-badge">
+
+                <i class="fas fa-plane"></i>
+
+                Your Journey. Our Passion.
+
+            </div>
+
+
+            <h1>
+
+                Explore The World.
+                <span>Create Memories.</span>
+
+            </h1>
+
+
+            <p>
+
+                Discover unforgettable destinations, carefully planned
+                holidays and memorable experiences with
+                <strong>LIONEL Travel Agency</strong> from Bhadrachalam.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#packages" class="btn btn-primary">
+
+                    Explore Packages
+
+                    <i class="fas fa-arrow-right"></i>
+
+                </a>
+
+
+                <a href="#contact" class="btn btn-secondary">
+
+                    Plan My Trip
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-features">
+
+
+                <div class="hero-feature">
+
+                    <strong>100+</strong>
+
+                    <span>
+                        Happy Travellers
+                    </span>
+
+                </div>
+
+
+                <div class="hero-feature">
+
+                    <strong>25+</strong>
+
+                    <span>
+                        Destinations
+                    </span>
+
+                </div>
+
+
+                <div class="hero-feature">
+
+                    <strong>10+</strong>
+
+                    <span>
+                        Tour Experiences
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     QUICK SERVICES
+========================================= -->
+
+<section class="destination-strip">
+
+    <div class="container destination-card-wrapper">
+
+
+        <div class="quick-grid">
+
+
+            <div class="quick-item">
+
+                <div class="quick-icon">
+
+                    <i class="fas fa-plane-departure"></i>
+
+                </div>
+
+                <div>
+
+                    <strong>Flight Booking</strong>
+
+                    <small>
+                        Domestic & International
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="quick-item">
+
+                <div class="quick-icon">
+
+                    <i class="fas fa-hotel"></i>
+
+                </div>
+
+                <div>
+
+                    <strong>Hotel Booking</strong>
+
+                    <small>
+                        Comfortable stays
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="quick-item">
+
+                <div class="quick-icon">
+
+                    <i class="fas fa-car"></i>
+
+                </div>
+
+                <div>
+
+                    <strong>Cab Services</strong>
+
+                    <small>
+                        Safe & convenient
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="quick-item">
+
+                <div class="quick-icon">
+
+                    <i class="fas fa-map-location-dot"></i>
+
+                </div>
+
+                <div>
+
+                    <strong>Tour Packages</strong>
+
+                    <small>
+                        Customized trips
+                    </small>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     ABOUT
+========================================= -->
+
+<section class="section" id="about">
+
+    <div class="container about-grid">
+
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1100&q=85"
+                alt="Travellers enjoying a memorable journey">
+
+            <div class="about-badge">
+
+                <strong>Explore</strong>
+
+                <br>
+
+                <span>Travel • Discover • Enjoy</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+
+            <div class="section-title"
+                style="text-align:left;margin-bottom:20px;">
+
+                <span>About LIONEL Travel Agency</span>
+
+                <h2>
+
+                    Your Trusted Partner For Memorable Journeys
+
+                </h2>
+
+            </div>
+
+
+            <p>
+
+                Welcome to <strong>LIONEL Travel Agency</strong>,
+                a travel service based in Bhadrachalam,
+                Bhadradri Kothagudem, Telangana.
+
+            </p>
+
+
+            <p>
+
+                We help individuals, families, friends and groups
+                plan comfortable and memorable journeys with
+                customized travel solutions designed around
+                their budget, schedule and interests.
+
+            </p>
+
+
+            <ul class="about-list">
+
+
+                <li>
+
+                    <i class="fas fa-circle-check"></i>
+
+                    Customized domestic tour packages
+
+                </li>
+
+
+                <li>
+
+                    <i class="fas fa-circle-check"></i>
+
+                    Pilgrimage and spiritual tours
+
+                </li>
+
+
+                <li>
+
+                    <i class="fas fa-circle-check"></i>
+
+                    Family and group holidays
+
+                </li>
+
+
+                <li>
+
+                    <i class="fas fa-circle-check"></i>
+
+                    Hotel, flight and cab assistance
+
+                </li>
+
+
+                <li>
+
+                    <i class="fas fa-circle-check"></i>
+
+                    Personalized travel planning
+
+                </li>
+
+
+            </ul>
+
+
+            <a href="#contact" class="btn btn-primary">
+
+                Talk To T Lionel
+
+                <i class="fas fa-arrow-right"></i>
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     DESTINATIONS
+========================================= -->
+
+<section class="section destinations" id="destinations">
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <span>Popular Destinations</span>
+
+            <h2>
+
+                Where Will Your Next Adventure Take You?
+
+            </h2>
+
+            <p>
+
+                Explore beautiful destinations and create
+                memories that last a lifetime.
+
+            </p>
+
+        </div>
+
+
+        <div class="destination-grid">
+
+
+            <!-- HYDERABAD -->
+
+            <div class="destination-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1572445271230-a78b5944a659?auto=format&fit=crop&w=900&q=85"
+                    alt="Hyderabad city tour">
+
+                <div class="destination-overlay">
+
+                    <span>Telangana</span>
+
+                    <h3>Hyderabad</h3>
+
+                    <p>
+                        Heritage, food, shopping and city experiences.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- GOA -->
+
+            <div class="destination-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=900&q=85"
+                    alt="Goa beach holiday">
+
+                <div class="destination-overlay">
+
+                    <span>Beach Holiday</span>
+
+                    <h3>Goa</h3>
+
+                    <p>
+                        Beaches, sunsets, relaxation and adventure.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- KERALA -->
+
+            <div class="destination-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=900&q=85"
+                    alt="Kerala backwaters">
+
+                <div class="destination-overlay">
+
+                    <span>South India</span>
+
+                    <h3>Kerala</h3>
+
+                    <p>
+                        Backwaters, greenery and peaceful experiences.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- KASHMIR -->
+
+            <div class="destination-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1595815771614-ade9d1d0c4b5?auto=format&fit=crop&w=900&q=85"
+                    alt="Kashmir mountains">
+
+                <div class="destination-overlay">
+
+                    <span>Mountain Escape</span>
+
+                    <h3>Kashmir</h3>
+
+                    <p>
+                        Mountains, valleys, lakes and breathtaking views.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- RAJASTHAN -->
+
+            <div class="destination-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=900&q=85"
+                    alt="Rajasthan tourism">
+
+                <div class="destination-overlay">
+
+                    <span>Royal India</span>
+
+                    <h3>Rajasthan</h3>
+
+                    <p>
+                        Forts, palaces, culture and royal experiences.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- BHADRACHALAM -->
+
+            <div class="destination-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=85"
+                    alt="Indian pilgrimage destination">
+
+                <div class="destination-overlay">
+
+                    <span>Spiritual Journey</span>
+
+                    <h3>Bhadrachalam</h3>
+
+                    <p>
+                        A beautiful starting point for spiritual journeys.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     SERVICES
+========================================= -->
+
+<section class="section" id="services">
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <span>Our Services</span>
+
+            <h2>
+
+                Everything You Need For A Smooth Journey
+
+            </h2>
+
+            <p>
+
+                From planning your destination to returning home,
+                we make your travel experience easier.
+
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+
+            <div class="service-card">
+
+                <div class="service-icon icon-blue">
+
+                    <i class="fas fa-plane"></i>
+
+                </div>
+
+                <h3>Flight Booking</h3>
+
+                <p>
+
+                    Assistance with domestic and international
+                    flight booking according to your travel plans.
+
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon icon-orange">
+
+                    <i class="fas fa-hotel"></i>
+
+                </div>
+
+                <h3>Hotel Booking</h3>
+
+                <p>
+
+                    Find suitable accommodation options based
+                    on your destination and travel budget.
+
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon icon-green">
+
+                    <i class="fas fa-car"></i>
+
+                </div>
+
+                <h3>Cab & Transport</h3>
+
+                <p>
+
+                    Convenient transportation options for
+                    local sightseeing and intercity travel.
+
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon icon-purple">
+
+                    <i class="fas fa-om"></i>
+
+                </div>
+
+                <h3>Pilgrimage Tours</h3>
+
+                <p>
+
+                    Customized spiritual journeys to important
+                    pilgrimage destinations across India.
+
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon icon-pink">
+
+                    <i class="fas fa-heart"></i>
+
+                </div>
+
+                <h3>Honeymoon Tours</h3>
+
+                <p>
+
+                    Romantic travel experiences designed for
+                    couples celebrating special moments.
+
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon icon-gold">
+
+                    <i class="fas fa-users"></i>
+
+                </div>
+
+                <h3>Group Tours</h3>
+
+                <p>
+
+                    Organized travel solutions for families,
+                    friends, institutions and groups.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     TOUR PACKAGES
+========================================= -->
+
+<section class="section packages" id="packages">
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <span>Featured Packages</span>
+
+            <h2>Choose Your Perfect Getaway</h2>
+
+            <p>
+
+                Sample packages that can be customized according
+                to your travel dates, group size and requirements.
+
+            </p>
+
+        </div>
+
+
+        <div class="package-grid">
+
+
+            <!-- PACKAGE 1 -->
+
+            <div class="package-card">
+
+
+                <div class="package-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=900&q=85"
+                        alt="Goa holiday package">
+
+                </div>
+
+
+                <div class="package-body">
+
+                    <span class="package-tag">
+                        Beach Holiday
+                    </span>
+
+                    <h3>
+                        Goa Escape
+                    </h3>
+
+                    <div class="package-meta">
+
+                        <i class="fas fa-calendar"></i>
+
+                        3 Nights / 4 Days
+
+                    </div>
+
+
+                    <div class="package-price">
+
+                        <strong>₹9,999</strong>
+
+                        <span>
+                            / person*
+                        </span>
+
+                    </div>
+
+
+                    <ul>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Hotel accommodation
+                        </li>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Sightseeing assistance
+                        </li>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Local transport options
+                        </li>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Customized itinerary
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#contact" class="btn btn-primary">
+
+                        Enquire Now
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PACKAGE 2 -->
+
+            <div class="package-card">
+
+
+                <div class="package-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=900&q=85"
+                        alt="Kerala holiday package">
+
+                </div>
+
+
+                <div class="package-body">
+
+                    <span class="package-tag">
+                        Nature Holiday
+                    </span>
+
+                    <h3>
+                        Kerala Bliss
+                    </h3>
+
+                    <div class="package-meta">
+
+                        <i class="fas fa-calendar"></i>
+
+                        4 Nights / 5 Days
+
+                    </div>
+
+
+                    <div class="package-price">
+
+                        <strong>₹14,999</strong>
+
+                        <span>
+                            / person*
+                        </span>
+
+                    </div>
+
+
+                    <ul>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Hotel accommodation
+                        </li>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Sightseeing
+                        </li>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Transport assistance
+                        </li>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Travel planning
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#contact" class="btn btn-primary">
+
+                        Enquire Now
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PACKAGE 3 -->
+
+            <div class="package-card">
+
+
+                <div class="package-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1595815771614-ade9d1d0c4b5?auto=format&fit=crop&w=900&q=85"
+                        alt="Kashmir holiday package">
+
+                </div>
+
+
+                <div class="package-body">
+
+                    <span class="package-tag">
+                        Mountain Escape
+                    </span>
+
+                    <h3>
+                        Kashmir Dreams
+                    </h3>
+
+                    <div class="package-meta">
+
+                        <i class="fas fa-calendar"></i>
+
+                        5 Nights / 6 Days
+
+                    </div>
+
+
+                    <div class="package-price">
+
+                        <strong>₹19,999</strong>
+
+                        <span>
+                            / person*
+                        </span>
+
+                    </div>
+
+
+                    <ul>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Hotel accommodation
+                        </li>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Local sightseeing
+                        </li>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Transport assistance
+                        </li>
+
+                        <li>
+                            <i class="fas fa-check"></i>
+                            Customized itinerary
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#contact" class="btn btn-primary">
+
+                        Enquire Now
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <p style="text-align:center;color:#8795A8;margin-top:30px;font-size:12px;">
+
+            *Package prices shown are sample starting prices for website
+            demonstration. Actual pricing depends on destination,
+            dates, hotel category, transport and availability.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     WHY CHOOSE US
+========================================= -->
+
+<section class="section">
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <span>Why LIONEL</span>
+
+            <h2>Travel With Confidence</h2>
+
+            <p>
+
+                We focus on making every stage of your journey
+                simple, comfortable and memorable.
+
+            </p>
+
+        </div>
+
+
+        <div class="why-grid">
+
+
+            <div class="why-card">
+
+                <i class="fas fa-route"></i>
+
+                <h3>Customized Trips</h3>
+
+                <p>
+
+                    Travel plans designed around your
+                    interests and schedule.
+
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <i class="fas fa-wallet"></i>
+
+                <h3>Budget Friendly</h3>
+
+                <p>
+
+                    Flexible travel options for different
+                    budgets and group sizes.
+
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <i class="fas fa-headset"></i>
+
+                <h3>Personal Support</h3>
+
+                <p>
+
+                    Assistance before and during your
+                    planned travel experience.
+
+                </p>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <i class="fas fa-shield-heart"></i>
+
+                <h3>Travel Assistance</h3>
+
+                <p>
+
+                    Practical support for bookings,
+                    transport and itinerary planning.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     TESTIMONIALS
+========================================= -->
+
+<section class="section testimonials" id="reviews">
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <span>Traveller Reviews</span>
+
+            <h2>Memories That Speak For Us</h2>
+
+            <p>
+
+                Sample testimonials for the website design.
+                Replace these with verified customer reviews.
+
+            </p>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+
+            <div class="testimonial">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+
+                    "The trip planning was smooth and convenient.
+                    The team helped us organize our family holiday
+                    according to our schedule."
+
+                </p>
+
+
+                <div class="customer">
+
+                    <img
+                        src="https://i.pravatar.cc/100?img=12"
+                        alt="Traveller">
+
+                    <div>
+
+                        <strong>
+                            Suresh Kumar
+                        </strong>
+
+                        <small>
+                            Family Traveller
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="testimonial">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+
+                    "Very helpful throughout our journey.
+                    The communication was clear and the itinerary
+                    was easy to follow."
+
+                </p>
+
+
+                <div class="customer">
+
+                    <img
+                        src="https://i.pravatar.cc/100?img=32"
+                        alt="Traveller">
+
+                    <div>
+
+                        <strong>
+                            Anjali Rao
+                        </strong>
+
+                        <small>
+                            Holiday Traveller
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="testimonial">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+
+                    "We wanted a simple pilgrimage trip for our
+                    family and received a customized travel plan
+                    that suited our requirements."
+
+                </p>
+
+
+                <div class="customer">
+
+                    <img
+                        src="https://i.pravatar.cc/100?img=53"
+                        alt="Traveller">
+
+                    <div>
+
+                        <strong>
+                            Ravi Prasad
+                        </strong>
+
+                        <small>
+                            Group Traveller
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     FAQ
+========================================= -->
+
+<section class="section">
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <span>Travel FAQ</span>
+
+            <h2>Frequently Asked Questions</h2>
+
+        </div>
+
+
+        <div class="faq-container">
+
+
+            <div class="faq">
+
+                <div class="faq-question">
+
+                    Can you customize a travel package?
+
+                    <i class="fas fa-chevron-down"></i>
+
+                </div>
+
+
+                <div class="faq-answer">
+
+                    Yes. Travel packages can be customized according
+                    to destination, travel dates, number of travellers,
+                    accommodation preferences and planned activities.
+
+                </div>
+
+            </div>
+
+
+            <div class="faq">
+
+                <div class="faq-question">
+
+                    Do you arrange hotel bookings?
+
+                    <i class="fas fa-chevron-down"></i>
+
+                </div>
+
+
+                <div class="faq-answer">
+
+                    Yes. Hotel booking assistance can be provided
+                    based on destination, budget and accommodation
+                    preferences.
+
+                </div>
+
+            </div>
+
+
+            <div class="faq">
+
+                <div class="faq-question">
+
+                    Do you arrange pilgrimage tours?
+
+                    <i class="fas fa-chevron-down"></i>
+
+                </div>
+
+
+                <div class="faq-answer">
+
+                    Yes. We can help plan pilgrimage and spiritual
+                    journeys for individuals, families and groups.
+
+                </div>
+
+            </div>
+
+
+            <div class="faq">
+
+                <div class="faq-question">
+
+                    How can I request a travel quotation?
+
+                    <i class="fas fa-chevron-down"></i>
+
+                </div>
+
+
+                <div class="faq-answer">
+
+                    Submit the enquiry form below or contact
+                    LIONEL Travel Agency directly on
+                    7386757616.
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     ENQUIRY / CONTACT
+========================================= -->
+
+<section class="section enquiry" id="contact">
+
+    <div class="container enquiry-grid">
+
+
+        <div class="enquiry-content">
+
+
+            <div class="section-title"
+                style="text-align:left;margin-bottom:25px;">
+
+                <span style="color:#FF9A51;">
+                    Plan Your Journey
+                </span>
+
+                <h2 style="color:white;">
+
+                    Tell Us Where You Want To Go
+
+                </h2>
+
+            </div>
+
+
+            <p>
+
+                Share your travel requirements with us.
+                T Lionel and the LIONEL Travel Agency team
+                can discuss suitable options for your journey.
+
+            </p>
+
+
+            <div class="contact-detail">
+
+                <i class="fas fa-phone"></i>
+
+                <div>
+
+                    <strong>
+                        Call Us
+                    </strong>
+
+                    <br>
+
+                    7386757616
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <i class="fas fa-envelope"></i>
+
+                <div>
+
+                    <strong>
+                        Email
+                    </strong>
+
+                    <br>
+
+                    digitalramesh369@gmail.com
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <i class="fas fa-location-dot"></i>
+
+                <div>
+
+                    <strong>
+                        Office Location
+                    </strong>
+
+                    <br>
+
+                    Bhadrachalam,
+                    Bhadradri Kothagudem,
+                    Telangana - 507111
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- ENQUIRY FORM -->
+
+        <form class="enquiry-form" id="travelForm">
+
+
+            <h3>
+
+                Get Your Travel Quote
+
+            </h3>
+
+
+            <div class="form-grid">
+
+
+                <div class="form-group">
+
+                    <label>
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="travelName"
+                        placeholder="Your name"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Mobile Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="travelPhone"
+                        placeholder="Your mobile number"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="travelEmail"
+                        placeholder="Your email address">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Number Of Travellers
+                    </label>
+
+                    <select id="travellers">
+
+                        <option>1 - 2</option>
+                        <option>3 - 5</option>
+                        <option>6 - 10</option>
+                        <option>11 - 20</option>
+                        <option>20+</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Destination
+                    </label>
+
+                    <input
+                        type="text"
+                        id="destination"
+                        placeholder="Where do you want to go?">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Travel Type
+                    </label>
+
+                    <select id="travelType">
+
+                        <option>Family Holiday</option>
+                        <option>Honeymoon</option>
+                        <option>Pilgrimage</option>
+                        <option>Group Tour</option>
+                        <option>Adventure</option>
+                        <option>Business Travel</option>
+                        <option>Other</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group full">
+
+                    <label>
+                        Travel Requirements
+                    </label>
+
+                    <textarea
+                        id="travelMessage"
+                        placeholder="Tell us your travel dates, preferred hotel, transport requirements, etc."></textarea>
+
+                </div>
+
+
+                <div class="form-group full">
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary form-submit">
+
+                        <i class="fas fa-paper-plane"></i>
+
+                        Send Enquiry
+
+                    </button>
+
+                </div>
+
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     CTA
+========================================= -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>
+
+            Your Next Adventure Starts Here.
+
+        </h2>
+
+        <p>
+
+            Let LIONEL Travel Agency help you turn your
+            travel plans into memorable experiences.
+
+        </p>
+
+        <a
+            href="tel:7386757616"
+            class="btn">
+
+            <i class="fas fa-phone"></i>
+
+            Call 7386757616
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+
+        <!-- COMPANY -->
+
+        <div>
+
+            <div class="logo">
+
+                <div class="logo-icon">
+
+                    LA
+
+                </div>
+
+
+                <div class="logo-text">
+
+                    <strong style="color:white;">
+
+                        LIONEL
+
+                    </strong>
+
+                    <small>
+
+                        Travel Agency
+
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <p style="margin-top:20px;">
+
+                Your trusted travel partner from
+                Bhadrachalam, helping travellers discover
+                memorable journeys across India and beyond.
+
+            </p>
+
+
+            <div class="social-icons">
+
+                <a href="#" aria-label="Facebook">
+
+                    <i class="fab fa-facebook-f"></i>
+
+                </a>
+
+
+                <a href="#" aria-label="Instagram">
+
+                    <i class="fab fa-instagram"></i>
+
+                </a>
+
+
+                <a href="#" aria-label="YouTube">
+
+                    <i class="fab fa-youtube"></i>
+
+                </a>
+
+
+                <a
+                    href="https://wa.me/917386757616"
+                    target="_blank"
+                    aria-label="WhatsApp">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- QUICK LINKS -->
+
+        <div>
+
+            <h3>
+                Quick Links
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about">
+                        About Us
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#destinations">
+                        Destinations
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#packages">
+                        Tour Packages
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- SERVICES -->
+
+        <div>
+
+            <h3>
+                Services
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="#services">
+                        Flight Booking
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        Hotel Booking
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        Cab Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        Pilgrimage Tours
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services">
+                        Group Tours
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- CONTACT -->
+
+        <div>
+
+            <h3>
+                Contact Us
+            </h3>
+
+            <ul class="footer-links">
+
+                <li>
+                    <i class="fas fa-phone"></i>
+                    7386757616
+                </li>
+
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    digitalramesh369@gmail.com
+                </li>
+
+                <li>
+                    <i class="fas fa-location-dot"></i>
+                    Bhadrachalam,
+                    Telangana - 507111
+                </li>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="container copyright">
+
+        © 2026 LIONEL Travel Agency.
+        All Rights Reserved.
+
+        <br>
+
+        Proprietor: T Lionel
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================
+     FLOATING WHATSAPP
+========================================= -->
+
+<a
+    class="whatsapp"
+    href="https://wa.me/917386757616?text=Hello%20LIONEL%20Travel%20Agency,%20I%20would%20like%20to%20enquire%20about%20a%20travel%20package."
+    target="_blank"
+    aria-label="Contact LIONEL Travel Agency on WhatsApp">
+
+    <i class="fab fa-whatsapp"></i>
+
+</a>
+
+
+<!-- =========================================
+     JAVASCRIPT
+========================================= -->
+
+<script>
+
+
+    /* =========================
+       MOBILE MENU
+    ========================= */
+
+    const menuBtn = document.getElementById("menuBtn");
+
+    const navLinks = document.getElementById("navLinks");
+
+
+    menuBtn.addEventListener("click", function () {
+
+        navLinks.classList.toggle("active");
+
+    });
+
+
+    /* CLOSE MENU AFTER CLICK */
+
+    document.querySelectorAll(".nav-links a").forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+            navLinks.classList.remove("active");
+
+        });
+
+    });
+
+
+    /* =========================
+       FAQ ACCORDION
+    ========================= */
+
+    document.querySelectorAll(".faq-question").forEach(function(question) {
+
+        question.addEventListener("click", function() {
+
+            const currentFAQ = this.parentElement;
+
+            document.querySelectorAll(".faq").forEach(function(faq) {
+
+                if (faq !== currentFAQ) {
+
+                    faq.classList.remove("active");
+
+                }
+
+            });
+
+            currentFAQ.classList.toggle("active");
+
+        });
+
+    });
+
+
+    /* =========================
+       TRAVEL ENQUIRY FORM
+    ========================= */
+
+    document
+        .getElementById("travelForm")
+        .addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+
+            const name =
+                document.getElementById("travelName").value;
+
+            const phone =
+                document.getElementById("travelPhone").value;
+
+            const email =
+                document.getElementById("travelEmail").value;
+
+            const travellers =
+                document.getElementById("travellers").value;
+
+            const destination =
+                document.getElementById("destination").value;
+
+            const travelType =
+                document.getElementById("travelType").value;
+
+            const message =
+                document.getElementById("travelMessage").value;
+
+
+            const whatsappMessage =
+
+                "Hello LIONEL Travel Agency!%0A%0A" +
+
+                "*New Travel Enquiry*%0A%0A" +
+
+                "Name: " +
+                encodeURIComponent(name) +
+
+                "%0AMobile: " +
+                encodeURIComponent(phone) +
+
+                "%0AEmail: " +
+                encodeURIComponent(email) +
+
+                "%0ATravellers: " +
+                encodeURIComponent(travellers) +
+
+                "%0ADestination: " +
+                encodeURIComponent(destination) +
+
+                "%0ATravel Type: " +
+                encodeURIComponent(travelType) +
+
+                "%0ARequirements: " +
+                encodeURIComponent(message);
+
+
+            window.open(
+
+                "https://wa.me/917386757616?text=" +
+                whatsappMessage,
+
+                "_blank"
+
+            );
+
+        });
+
+
+</script>
+
+
+</body>
+</html>
